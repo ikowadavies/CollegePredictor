@@ -48,21 +48,16 @@ session_start();
 		</div>
 	</header>
 	<div class="container">
-		<h3>Top 20 Engineering College</h3>
+		<h3>Top 5 Universities</h3>
 		<ol class="list1">
-			<li>IIT Kanpur</li>  
-			<li>IIT Kharagpur</li> 
-			<li>IIT Bombay</li>
-			<li>IIT Madras</li>
-			<li>IIT Delhi</li>
-			<li>BITS Pilani</li>
-			<li>IIT Roorkee</li>
-			<li>IT-BHU</li>
-			<li>IIT Guwahati</li>
-			<li>College of Engg,Anna University</li>
+			<li>The University of Zambia</li>  
+			<li>Copperbelt university</li> 
+			<li>Universityof Lusaka</li>
+			<li>Mulungushi University</li>
+			<li>Cavendish University</li>
 		</ol>
-		<?php
-		$con = mysqli_connect('localhost', 'root', '', 'college');
+		<!--
+		/*$con = mysqli_connect('localhost', 'root', '', 'college');
 
 		$query = "SELECT cid,name FROM `clg_mrks`";
 		$result = mysqli_query($con, $query);
@@ -74,7 +69,7 @@ session_start();
 				echo '<li><a href="college.php?cid='.$row[0].'">'.$row[1].'</a></li>';
 			}
 			echo "</ol>";
-		} else echo 'error';		?>
+		} else echo 'error';		?>*/ -->
 	</div>
 </body>
 </html>
